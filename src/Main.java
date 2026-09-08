@@ -14,12 +14,16 @@ public class Main {
 
         juegodelavida juego = new juegodelavida();
 
+        System.out.println("------------------------------");
          lector.imprimirTablero(tablero);
 
         for (int gen = 1; gen <= generacionesTotales; gen++) {
+
+            System.out.print("\n");
             juego.gameOfLife(tablero);
 
             lector.imprimirTablero(tablero);
+            System.out.println("------------------------------");
         }
     }
 
