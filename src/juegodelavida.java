@@ -1,4 +1,4 @@
-public class juegovida2 {
+public class juegodelavida {
     public void gameOfLife(Array2ADT<Integer> board) {
         int rows = board.obtenerRenglones();
         int cols = board.obtenerColumnas();
